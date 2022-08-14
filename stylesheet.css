@@ -19,7 +19,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(top.jpg);
+  background-image: url(top.png);
   background-size: cover;
   color: white;
   text-align: center;
@@ -93,6 +93,10 @@ header {
   float: left;
 }
 
+.header-left p{
+  color:#5f5d60
+}
+
 .header-right {
   float: right;
   margin-right: -25px;
@@ -101,7 +105,7 @@ header {
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
-  color: white;
+  color: rgb(148, 148, 148);
   display: block;
   float: left;
   transition: all 0.5s;
@@ -112,7 +116,7 @@ header {
 }
 
 .lesson-wrapper {
-  height: 580px;
+  height: 700px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
